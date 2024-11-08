@@ -1,9 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { FacebookAuthProvider, getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { GOOGLE_API_KEY } from "../utils/constanTs";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDJnYtSmQ_BWAcWi5bbrjp2tgGB0mENf8U",
+  apiKey: GOOGLE_API_KEY,
   authDomain: "cinemapp-ed67e.firebaseapp.com",
   projectId: "cinemapp-ed67e",
   storageBucket: "cinemapp-ed67e.firebasestorage.app",
