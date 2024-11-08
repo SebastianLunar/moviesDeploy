@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import UserInfo from './components/userInfo'
+import UserInfo from './components/UserInfo'
 import { Box, Button, Stack } from '@mui/material'
 import { useDispatch } from 'react-redux'
 import {
