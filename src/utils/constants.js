@@ -1,1 +1,1 @@
-export const GOOGLE_API_KEY = import.meta.env.VITE_GOOGLE_API_KEY
+VITE_GOOGLE_API_KEY = AIzaSyDJnYtSmQ_BWAcWi5bbrjp2tgGB0mENf8U
