@@ -85,7 +85,7 @@ function App () {
           onClick={() => handleAuth('google')}
           color='success'
         >
-          GoogleLogin
+          NUEVO GoogleLogin
         </Button>
         <Button
           variant='contained'
